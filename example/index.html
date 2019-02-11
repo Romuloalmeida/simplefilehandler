@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple File Handler - JQuery Plugin</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Simple File Handler</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">for JQuery</h1>
+        <p class="lead">How to use? Guess... It's simple!</p>
+        
+        <p>1) Import the simplest script:</p>
+        <pre>
+          <code style="text-align: left;" class="javascript">
+                  &#x3C;script src=&#x22;../pathOfYourPlugin.js&#x22;&#x3E;&#x3C;/script&#x3E;</code>
+        </pre>
+        <p>2) Use it:</p>
+            <pre><code style="text-align: left;" class="javascript">
+          $(".file_input").filesHandler(function(files){
+            var input = $(this);
+            var parent = input.closest(".list-files-upload");
+            parent.find("> .item-file:not(.no_delete)").remove();
+            if (files.length > 0)
+            {
+              files.forEach( (f)=>{
+                    var size = bytesToSize(f.size);
+                    var nome_arquivo = f.name;
+                    item.insertBefore(parent.find(".item-file-label"))
+                });
+            }
+        });
+            </code></pre>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
