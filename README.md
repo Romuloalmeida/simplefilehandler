@@ -29,13 +29,11 @@ Simple File Handle is the lightest and simplest file manager ever.
   ```
   $(".file_input").filesHandler(function(files){
             var input = $(this);
-            var parent = input.closest(".list-files-upload");
-            parent.find("> .item-file:not(.no_delete)").remove();
             if (files.length > 0)
             {
               files.forEach( (f)=>{
                     var size = bytesToSize(f.size);
-                    var nome_arquivo = f.name;
+                    var name_file = f.name;
                     item.insertBefore(".list")
                 });
             }
