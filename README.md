@@ -3,6 +3,7 @@ Simple File Handle is the lightest and simplest file manager ever.
 
   - Less than 1 KByte!
   - Fast
+  - Allow multiple files!
   - Simple!
 
 # How to use!
