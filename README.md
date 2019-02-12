@@ -22,7 +22,7 @@ Simple File Handle is the lightest and simplest file manager ever.
 -array
  - object
    -  name => Name of yuor file
-   -  size => Size of your file
+   -  size => Size of your file in bytes
    -  file => **The file object itself!**
 
 
