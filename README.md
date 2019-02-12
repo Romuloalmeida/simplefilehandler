@@ -1,4 +1,4 @@
-# JQuery Simple File Handle
+# JQuery Simple File Handler
 Simple File Handle is the lightest and simplest file manager ever.
 
   - Less than 1 KByte!
