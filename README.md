@@ -42,4 +42,4 @@ Simple File Handle is the lightest and simplest file manager ever.
             }
         });
   ```
-Feel free to help me on this repo!
+
