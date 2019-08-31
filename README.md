@@ -16,10 +16,10 @@ Simple File Handle is the lightest and simplest file manager ever.
    ```
   - 2) Use it!
 ```
-  $(".file_input").filesHandler(callbackFunction(arr_files_info){...} )
+  $(".file_input").filesHandler(callbackFunction(files){...} )
 ```
 
-# arr_files_info - Attributes
+# files - Attributes
 
 -array
  - object
