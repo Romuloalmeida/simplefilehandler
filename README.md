@@ -1,7 +1,7 @@
 # JQuery Simple File Handler
 It's my Simple File Handle is the lightest and simplest file manager ever.
 
-* Attention: It doesn't have any visual interface. It gives you the treated callback with the informations about the files on some input like its name, size and the original file object.
+* Attention: It hasn't any visual interface. It gives you the treated callback with the informations about the files on some input like its name, size and the original file object.
 
   - Less than 1 KByte!
   - Fast
