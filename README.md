@@ -17,7 +17,7 @@ It's my Simple File Handle is the lightest and simplest file manager ever.
   - 2) Use it!
 ```
   $(".file_input").filesHandler(function(files){
-  // That's it! At every change input it will trigger!
+  // That's it! At every change input it will execute!
   } )
 ```
 
