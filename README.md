@@ -27,7 +27,7 @@ It's my Simple File Handle is the lightest and simplest file manager ever.
  - object
    -  name => Name of your file
    -  size => Size of your file in bytes
-   -  file => **The file object itself!**
+   -  file => The file object itself!
 
 
  # Example
