@@ -10,15 +10,15 @@ It's my Simple File Handle is the lightest and simplest file manager ever.
 
 # How to use!
 
-  - 1) Import JQuery
+  - 1) Import JQuery..
   ```
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
   ```
-  - 2) And this plugin:
+  - 2) ... and this plugin:
    ```
     <script src="https://cdn.jsdelivr.net/gh/Romuloalmeida/simplefilehandler@1.0/dist/simple-file-handler-min.js"></script>
    ```
-  - 2) Use it!
+  - 2) That's all folks!
 ```
   $(".file_input").filesHandler(function(files){
   // That's it! At every change input it will execute!
